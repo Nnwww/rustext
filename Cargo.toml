@@ -3,4 +3,12 @@ name = "rustext"
 version = "0.1.0"
 authors = ["Nnwww <johndororo@gmail.com>"]
 
+[lib]
+name = "rustext_lib"
+path = "src/lib.rs"
+
+[[bin]]
+name = "rustext_bin"
+path = "src/main.rs"
+
 [dependencies]
