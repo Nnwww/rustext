@@ -12,7 +12,9 @@ name = "rustext_bin"
 path = "src/main.rs"
 
 [dependencies]
+clap = "~2.26.0"
 ndarray = { version = "0.10.1", features = ["blas"] }
 blas-sys = { version = "0.6.7", default-features = false, features = ["openblas"] }
 
 crossbeam = "0.3.0"
+rand = "0.3.16"
